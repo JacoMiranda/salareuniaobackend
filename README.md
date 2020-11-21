@@ -1,26 +1,19 @@
-# Backend 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.2.
+# Projeto desenvolvido durante BootCamp Java developer da Digital Innovation One
+
+Este faz parte de uma integração frontend em Angular para implementação de uma sala de reunião que pode ser encontrada no link <https://github.com/JacoMiranda/salareuniaofront>.
+
+## Frontend em Java 
+
+Utilizado a linguagem java e o gerenciador de dependência Maven.
+
+
+-- Utlizadou-se o STS integrado a IDE Eclipse IDE for Java Developers-2020-09, e acrescentado no pom o "spring-boot-devtoolsDevlop" com dependência para fazer o re-strart automático quando salva o projeto.
+
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+-- A porta do server está configurada para 8082, mas pode ser reconfigurada no arquivo "aplication.properties" conforme necessidade do desenvolvedor. 
+-- Banco de dados em memória H2
 
-## Code scaffolding
+### Caso queira usar o porta padrão remova a linha onde consta "server.port=8082"
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
