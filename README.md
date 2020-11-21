@@ -3,6 +3,7 @@
 Este faz parte de uma integração frontend em Angular para implementação de uma sala de reunião que pode ser encontrada no link <https://github.com/JacoMiranda/salareuniaofront>.
 
 ## Frontend em Java 
+A estrutura inicial foi criado através da plataforma Web do Spring pelo endereço https://start.spring.io/.
 
 Utilizado a linguagem java e o gerenciador de dependência Maven.
 
